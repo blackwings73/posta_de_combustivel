@@ -1,0 +1,26 @@
+# Ignorar arquivos de banco de dados
+*.sql
+*.bak
+*.log
+
+# Ignorar diretórios do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de configuração do editor (VSCode, Sublime, etc.)
+.vscode/
+.idea/
+
+# Ignorar arquivos temporários
+*.swp
+*.swo
+*.tmp
+
+# Ignorar arquivos gerados pela IDE
+*.class
+*.jar
+*.war
+*.pyc
+
+# Ignorar dependências de pacotes
+node_modules/
