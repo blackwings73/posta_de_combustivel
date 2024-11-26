@@ -1,0 +1,65 @@
+Estrutura do Banco de Dados
+O banco de dados posto_de_gasolina contém as seguintes tabelas:
+
+Tabelas:
+combustiveis
+
+Armazena informações sobre os tipos de combustíveis vendidos no posto.
+Campos:
+id_combustivel: Identificador único do combustível.
+tipo: Tipo de combustível (ex: gasolina, diesel, etanol).
+preco_por_litro: Preço por litro do combustível.
+bombas
+
+Armazena as bombas de combustível disponíveis no posto.
+Campos:
+id_bomba: Identificador único da bomba.
+descricao: Descrição da bomba (ex: Bomba 1, Bomba Diesel).
+funcionarios
+
+Armazena os dados dos funcionários do posto de gasolina.
+Campos:
+id_funcionario: Identificador único do funcionário.
+nome: Nome do funcionário.
+cargo: Cargo do funcionário (ex: operador, gerente).
+turno: Turno de trabalho do funcionário (m: manhã, t: tarde, n: noite).
+telefone: Telefone de contato do funcionário.
+clientes
+
+Armazena os dados dos clientes do posto.
+Campos:
+id_cliente: Identificador único do cliente.
+nome: Nome do cliente.
+telefone: Telefone do cliente.
+email: Email do cliente.
+abastecimentos
+
+Armazena informações sobre os abastecimentos realizados no posto.
+Campos:
+id_abastecimento: Identificador único do abastecimento.
+volume: Volume de combustível abastecido (em litros).
+valor_total: Valor total pago pelo abastecimento.
+data_abastecimento: Data e hora do abastecimento.
+servicos
+
+Armazena informações sobre os serviços prestados no posto de gasolina (ex: troca de óleo, calibragem de pneus).
+Campos:
+id_servico: Identificador único do serviço.
+descricao: Descrição do serviço.
+preco: Preço do serviço.
+transacoes
+
+Armazena informações sobre as transações financeiras realizadas, incluindo o tipo de pagamento.
+Campos:
+id_transacao: Identificador único da transação.
+forma_pagamento: Forma de pagamento utilizada ("p" para pagamento à vista, "c" para crédito, "d" para débito).
+total_pago: Total pago na transação.
+data_transacao: Data e hora da transação.
+Como Usar
+Instalar MySQL: Certifique-se de ter o MySQL ou MariaDB instalado em seu sistema.
+
+Configurar o Banco de Dados: Execute o script SQL presente no arquivo para criar o banco de dados e as tabelas necessárias.
+
+Gerenciar o Banco de Dados: Você pode interagir com o banco de dados usando qualquer ferramenta de gerenciamento de banco de dados (como MySQL Workbench, DBeaver, etc.) ou através de comandos SQL diretamente no MySQL.
+
+Adicionar Dados: Para adicionar dados, insira registros nas tabelas combustiveis, bombas, funcionarios, clientes, servicos, e registre abastecimentos e transações conforme necessário.
